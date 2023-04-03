@@ -1,0 +1,130 @@
+:root {
+
+    /* Primary */
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+
+    /* Neutral */
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+
+    /* Typography */
+    --font-size: 1rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: .955rem;
+    background-image: url(images/pattern-background-mobile.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: var(--pale-blue);
+    font-family: 'Red Hat Display', sans-serif;
+
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: #fff;
+    width: 390px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card__img {
+    max-width: 100%;
+}
+
+.card__content {
+    padding: 2.2em;
+    text-align: center;
+}
+
+.card__title {
+    color: var(--dark-blue);
+    font-weight: 900;
+}
+
+.card__text {
+    padding: 1.2em 0;
+    color: var(--desaturated-blue);
+    line-height: 1.6;
+}
+
+.card__subscription {
+    padding: 1.4em;
+    background-color: var(--very-pale-blue);
+    border-radius: 10px;
+    display: flex;
+    gap: 1.25rem;
+}
+
+.plan {
+   color: var(--dark-blue); 
+   font-weight: 900;
+   margin-bottom: .3em;
+   font-size: .85rem;
+}
+
+.price {
+    color: var(--desaturated-blue);
+    font-weight: 500;
+}
+
+.card__link {
+    align-self: center;
+    font-weight: 700;
+    margin-left: 3em;
+}
+
+.card__link:hover { 
+    opacity: .7;
+    text-decoration: none;
+}
+
+.card__proceed-btn {
+    font-family: 'Red Hat Display', sans-serif;
+    border: none;
+    background-color: var(--bright-blue);
+    padding: 1.2em;
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 900;
+    margin: 1.8em 0;
+    cursor: pointer;
+    box-shadow: 0px 15px 18px #c2c1c1;
+}
+
+.card__proceed-btn:hover {
+    opacity: .7;
+}
+
+.cancel__link {
+    text-decoration: none;
+    color: var(--desaturated-blue);
+    font-weight: 700;
+}
+
+.cancel__link:hover {
+    color: var(--dark-blue);
+}
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 600px) {
+    body {
+        background-image: url(images/pattern-background-desktop.svg);
+    }
+}
