@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- [View solution on Frontend Mentor](https://your-solution-url.com)
+- [View solution on Frontend Mentor](https://www.frontendmentor.io/solutions/order-summary-component-mobile-first-bem-nExMxPqv7K)
 - [View live site](https://order-summary-component-dennisthekin.vercel.app/)
 
 ## My process
