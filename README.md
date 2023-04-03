@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [View solution on Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [View live site](https://your-live-site-url.com)
+- [View solution on Frontend Mentor](https://your-solution-url.com)
+- [View live site](https://your-live-site-url.com)
 
 ## My process
 
